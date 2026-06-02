@@ -1,6 +1,6 @@
 {
   "name": "holo-diagram",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "description": "Anthropic-style diagram skills for Claude Code. Draw polished, minimalist flowcharts / pipeline / process diagrams as standalone SVG / PNG / HTML with a locked visual language and a three-theme palette (light / dark / mono-print).",
   "author": {
     "name": "LeanderLXZ",
