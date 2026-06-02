@@ -1,6 +1,6 @@
 ---
 name: holo-diagram
-description: Draw polished, minimalist sequential flowcharts / pipeline / process diagrams as standalone SVG / PNG / HTML in one of three themes. Use when the user asks for flowcharts, flow diagrams, pipeline diagrams, agentic-loop diagrams, process diagrams, workflow visualizations, or state-machine diagrams. Three themes — `light` (default, cream + sage), `dark` (slate-950), `mono-print` (B&W). NOT for architecture / network topology (use `architecture-diagram`), UML, gantt, org charts.
+description: Draw polished, minimalist sequential flowcharts / pipeline / process diagrams as standalone SVG / PNG / HTML in one of three themes. Use when the user asks for flowcharts, flow diagrams, pipeline diagrams, agentic-loop diagrams, process diagrams, workflow visualizations, or state-machine diagrams. Three themes — `dark` (default, slate-950), `light` (cream + sage), `mono-print` (B&W).
 ---
 
 # Flowchart Skill
@@ -630,8 +630,8 @@ See `examples/dark.svg` — `terminal / action / callout` at `0 / 135 / 250`, ea
 
 | Preset | Background | Use when |
 |---|---|---|
-| `light` (default) | cream `#F0EEE6` | docs / blog / light-mode product UI |
-| `dark` | slate-950 `#020617` | dark-mode UI / terminal screenshots |
+| `dark` (default) | slate-950 `#020617` | dark-mode UI / terminal screenshots |
+| `light` | cream `#F0EEE6` | docs / blog / light-mode product UI |
 | `mono-print` | white | print / academic / no-color |
 
 ## Reference examples — READ the matching one before you draw (MANDATORY)
@@ -662,9 +662,9 @@ All artifacts go in `./tmp_diagram/` relative to the current working directory (
    - `1500 (full default)` — use the full default canvas (e.g. to match an existing 1500-wide set)
    - `custom` — user supplies a viewBox width (display width = `min(viewBox, 825)`)
 
-   **Q3 — theme** (single-select, 3 options; default `light` — see §Presets). Skip this question only when the user already named a theme in their request:
-   - `light (default)` — cream `#F0EEE6` + sage; docs / blog / light-mode product UI
-   - `dark` — slate-950 `#020617`; dark-mode UI / terminal screenshots
+   **Q3 — theme** (single-select, 3 options; default `dark` — see §Presets). Skip this question only when the user already named a theme in their request:
+   - `dark (default)` — slate-950 `#020617`; dark-mode UI / terminal screenshots
+   - `light` — cream `#F0EEE6` + sage; docs / blog / light-mode product UI
    - `mono-print` — B&W; print / academic / no-color
 
    Record all three answers. The format answer determines which files survive Step 11 (the intermediate workflow always produces HTML → SVG → PNG — PNG is needed for subagent review regardless of choice). The canvas-width answer sets the viewBox cap for Step 4 layout; for a multi-diagram SET, apply the chosen policy once and use ONE shared width across the set. The theme answer fixes the preset for Steps 5–6 and is what §Reference examples' "read ONLY your theme" keys off — load only the chosen theme's color table + example, never all three.
