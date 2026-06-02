@@ -1,0 +1,20 @@
+{
+  "name": "holo-diagram",
+  "version": "1.0.0",
+  "description": "Anthropic-style diagram skills for Claude Code. Draw polished, minimalist flowcharts / pipeline / process diagrams as standalone SVG / PNG / HTML with a locked visual language and a three-theme palette (light / dark / mono-print).",
+  "author": {
+    "name": "LeanderLXZ",
+    "email": "leander.lxz@gmail.com"
+  },
+  "homepage": "https://github.com/LeanderLXZ/holo-diagram",
+  "repository": "https://github.com/LeanderLXZ/holo-diagram.git",
+  "license": "MIT",
+  "keywords": [
+    "claude-code",
+    "claude-code-plugin",
+    "diagram",
+    "flowchart",
+    "svg",
+    "visualization"
+  ]
+}
