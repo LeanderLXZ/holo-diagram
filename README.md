@@ -1,7 +1,7 @@
 # HOLO Diagram
 
 <p align="left">
-  <a href="https://github.com/LeanderLXZ/holo-diagram/releases"><img src="https://img.shields.io/badge/version-v1.1.10-blue" alt="Version"></a>
+  <a href="https://github.com/LeanderLXZ/holo-diagram/releases"><img src="https://img.shields.io/badge/version-v1.1.11-blue" alt="Version"></a>
   <img src="https://img.shields.io/badge/Claude%20Code-plugin-7857ED" alt="Claude Code Plugin">
   <a href="LICENSE"><img src="https://img.shields.io/github/license/LeanderLXZ/holo-diagram?color=blue" alt="License: MIT"></a>
 </p>
@@ -21,7 +21,7 @@ README, slide, or doc.
   opens in any browser and renders identically wherever you paste it.
 
 > Already using the **[HOLO](https://github.com/LeanderLXZ/holo)** plugin?
-> It bundles the same capability as its [/draw-flowchart](https://github.com/LeanderLXZ/holo/blob/main/skills/draw-flowchart/SKILL.md) skill — **holo-diagram** is the standalone edition.
+> It bundles the same capability as its [/draw-diagram](https://github.com/LeanderLXZ/holo/blob/main/skills/draw-diagram/SKILL.md) skill — **holo-diagram** is the standalone edition.
 
 <p align="center">
   <a href="#-quick-start">Quick Start</a> ·
