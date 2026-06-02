@@ -19,6 +19,8 @@ text { font-family: var(--font); }
   .arrow-spec  { font-weight: 500; font-size: 14px; }
   .edge        { fill: none; stroke-linecap: round; stroke-linejoin: round; }
 ]]></style>
+  <defs><clipPath id="rc"><rect width="100%" height="100%" rx="25" ry="25"/></clipPath></defs>
+  <g clip-path="url(#rc)">
   <rect width="100%" height="100%" rx="25" ry="25" fill="var(--bg)" />
 
 
@@ -98,4 +100,5 @@ text { font-family: var(--font); }
   <text class="arrow-name" x="1340" y="442" text-anchor="middle" fill="#1A1A1A">callout</text>
   <text class="arrow-spec" x="1340" y="508" text-anchor="middle" fill="#555555">3px dashed 7 5</text>
 
+</g>
 </svg>
