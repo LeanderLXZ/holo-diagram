@@ -1,7 +1,7 @@
 # HOLO Diagram
 
 <p align="left">
-  <a href="https://github.com/LeanderLXZ/holo-diagram/releases"><img src="https://img.shields.io/badge/version-v1.1.7-blue" alt="Version"></a>
+  <a href="https://github.com/LeanderLXZ/holo-diagram/releases"><img src="https://img.shields.io/badge/version-v1.1.8-blue" alt="Version"></a>
   <img src="https://img.shields.io/badge/Claude%20Code-plugin-7857ED" alt="Claude Code Plugin">
   <a href="LICENSE"><img src="https://img.shields.io/github/license/LeanderLXZ/holo-diagram?color=blue" alt="License: MIT"></a>
 </p>
