@@ -1,6 +1,6 @@
 ---
 name: holo-diagram
-description: Draw polished, minimalist diagrams — sequential flowcharts, pipeline / process diagrams, agentic-loop and state-machine diagrams — as standalone SVG / PNG / HTML in one of three themes. Use when the user asks for a flowchart, flow / pipeline / process diagram, agentic-loop diagram, workflow visualization, or state-machine diagram. Three themes — `dark` (default, slate-950), `light` (cream + sage), `mono-print` (B&W).
+description: Draw polished diagrams — flowcharts, pipeline / process, agentic-loop, state-machine — as SVG / PNG / HTML in three themes (dark / light / mono-print). Triggers: flowchart / flow / pipeline / process diagram / agentic-loop / state-machine / workflow visualization.
 ---
 
 # Diagram Skill
